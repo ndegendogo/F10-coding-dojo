@@ -1,0 +1,12 @@
+Two different solutions for the Pythagoras coding dojo.
+
+- Triangle.java: a few methods
+- TriangleTestUsingLoop.java: various test cases for the triangle.
+- Test case TriangleTestUsingLoop.countSolutionsInMap is a solution to the coding dojo task.
+  It is implemented with 3 nested loops.
+  This results in reasonable timing for maxPerimeter = 1000.
+  Note: a naive / straightforward brute-force implementation would use 4 nested loops
+  and would need several seconds.   
+- TriangleTestUsingMaps.java: an alternate solution to the coding dojo task.
+  Using only 2 nested loops, and two hash maps.
+  This solution scales much better for very large maxPerimeter.
